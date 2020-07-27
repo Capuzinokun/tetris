@@ -1,0 +1,29 @@
+Tetris (Ohjelmointi 2: Perusteet / Programming 2: Basics ; Kevät/Spring 2020)
+
+The following program consists of game called "Tetris" where blocks called tetrominos fall downward one at a time and the player must connect them in a line in order to remove them.
+When a tetromino hits the bottom or another tetromino if freezes in place and another one is dropped.
+There exists 7 different tetrominos. Game shows the player which tetromino is about to fall next.
+Game ends when the height of the fallen tetrominos reaches the top when this happens the player is informed with "Game over"-text and movement inputs can no longer be made.
+Game keeps track of the played time per session and also updates score whenever the player successfully removes full lines.
+Game can be paused with the "pause"-button and resumed with the "start"-button.
+Scores are calculated as such:
+
+1 line = +100 points
+2 lines = +300 points
+3 lines = +500 points
+4 lines = +800 points
+
+Whenever the player reaches the point where the amount of removed lines total is divisible by ten, the level rises by one and the game gets harder to a limit of six.
+
+Player can move the falling tetromino by pressing the "A", "S" and "D" buttons on keyboard.
+A - Left
+S - Down (Makes the tetromino fall faster towards the bottom)
+D - Right
+
+Rotation (90 degrees) happens with "Q" and "E" buttons on keyboard.
+Q - Counter-Clockwise
+E - Clockwise
+
+Player can store a tetromino as a "held tetromino" by pressing the "W" button on keyboard. It cannot be released back into the play area until the switched one has hit the bottom.
+
+Made by: Petrus Jussila
